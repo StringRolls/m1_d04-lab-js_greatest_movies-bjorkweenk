@@ -99,6 +99,8 @@ movies.forEach(numTitle =>
   {numberTitle.push(numTitle.title)})
   console.log(numberTitle)
 
+  console.log(numberTitle.slice(0, 20));
+
 // BONUS - Iteration 7: Time Format - Turn duration of the movies from hours to minutes
 function turnHoursToMinutes() {}
 
